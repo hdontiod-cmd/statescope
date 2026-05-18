@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title> StateScope - Trend</title>
+         <link rel="stylesheet" href="main.css">
+         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="trend.js" defer></script>
+        
+        <style>
+        #trendChart{
+            height: 75%;
+            width: 75%;
+        }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="maincontainer">
+
+            <h1>Trend</h1>
+
+            <nav id ="main_nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="trend.html">Trend</a></li>
+                    <li><a href="aboutme.html">About </a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </nav>
+
+            <hr><br>
+
+            <!-- i will keep the clas name the same as the home for style purpose -->
+            <div class="fbox">
+
+                <label for="trendStateSelect" >Select State:</label>
+                 <select id="trendStateSelect">
+                    <option value="">State</option>
+                </select>
+
+            </div>
+            <canvas id="trendChart"></canvas>
+
+           
+        </div>
+
+        </body>
+</html>

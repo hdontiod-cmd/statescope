@@ -1,0 +1,20 @@
+{
+  "name": "populationapp",
+  "version": "1.0.0",
+  "description": "Statescope population exploration",
+  "license": "ISC",
+  "author": "Herdozie Dontio Dongmo",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.14"
+  }
+}
